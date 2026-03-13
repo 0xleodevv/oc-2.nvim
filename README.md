@@ -1,6 +1,6 @@
-<h2 align="center">oc-2.nvim</h2>
+<h2 align="center">Open Code Colourscheme for Nvim</h2>
 
-<p align="center">Port of the <a href="https://github.com/anomalyco/opencode">OpenCode</a> oc-2 theme for Neovim</p>
+<p align="center">Unofficial port of the <a href="https://github.com/anomalyco/opencode">OpenCode</a> oc-2 theme for Neovim</p>
 
 <p align="center">
   <img alt="Preview" src="./oc-2-preview.png" width="800">
