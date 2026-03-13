@@ -28,6 +28,8 @@ return {
 	pink = "#FF9AE2",
 
 	-- Semantic
+	fn = "#fab283",
+	kw = "#a5a5a5",
 	comment = "#505050",
 
 	-- Diff

@@ -24,6 +24,7 @@ function M.get(c)
 		DiagnosticFloatingWarn = { fg = c.yellow },
 		DiagnosticFloatingInfo = { fg = c.blue },
 		DiagnosticFloatingHint = { fg = c.green },
+		DiagnosticUnnecessary = { italic = true },
 
 		-- References
 		LspReferenceText = { bg = c.bg4 },

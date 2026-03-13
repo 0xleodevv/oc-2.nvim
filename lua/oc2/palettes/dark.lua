@@ -19,15 +19,17 @@ return {
 	-- Palette
 	red = "#f65a42",
 	orange = "#fab283",
-	yellow = "#ECF58C",
+	yellow = "#FCD53B",
 	green = "#29c121",
 	teal = "#00ceb9",
 	cyan = "#93e9f6",
-	blue = "#9ebefb",
-	purple = "#9d5bd2",
+	blue = "#8CB0FF",
+	purple = "#EDB2F1",
 	pink = "#FF9AE2",
 
 	-- Semantic
+	fn = "#8CB0FF",
+	kw = "#EDB2F1",
 	comment = "#757575",
 
 	-- Diff
