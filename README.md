@@ -2,7 +2,7 @@
 
 Port of the [OpenCode](https://github.com/anomalyco/opencode) oc-2 theme for Neovim
 
-![preview](./assets/preview.png)
+![preview](./oc-2-preview.png)
 
 ## Variants
 
