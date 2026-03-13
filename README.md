@@ -1,8 +1,10 @@
-# oc-2.nvim
+<h2 align="center">oc-2.nvim</h2>
 
-Port of the [OpenCode](https://github.com/anomalyco/opencode) oc-2 theme for Neovim
+<p align="center">Port of the <a href="https://github.com/anomalyco/opencode">OpenCode</a> oc-2 theme for Neovim</p>
 
-![preview](./oc-2-preview.png)
+<p align="center">
+  <img alt="Preview" src="./oc-2-preview.png" width="800">
+</p>
 
 ## Variants
 
