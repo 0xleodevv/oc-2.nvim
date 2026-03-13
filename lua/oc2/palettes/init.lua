@@ -7,6 +7,9 @@ local M = {}
 function M.get(variant)
 	local palette = require("oc2.palettes." .. variant)
 
+	-- Variant identifier
+	palette.variant = variant
+
 	-- Derived colors
 	palette.diff_add_strong = util.blend(palette.green, palette.bg, 0.12)
 	palette.diff_del_strong = util.blend(palette.red, palette.bg, 0.12)

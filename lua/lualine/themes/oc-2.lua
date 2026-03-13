@@ -1,8 +1,5 @@
 local oc2 = require("oc2")
-local variant = oc2.config.variant
-if variant ~= "noir" then
-	variant = "dark"
-end
+local variant = oc2.config.theme == "oc-2-noir" and "noir" or "dark"
 local colors = require("oc2.palettes").get(variant)
 
 local bg = colors.bg2
