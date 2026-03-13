@@ -1,0 +1,46 @@
+local M = {}
+
+function M.get(c)
+	return {
+		Comment = { fg = c.comment, italic = true },
+		Constant = { fg = c.cyan },
+		String = { fg = c.teal },
+		Character = { fg = c.teal },
+		Number = { fg = c.cyan },
+		Boolean = { fg = c.orange },
+		Float = { fg = c.orange },
+		Identifier = { fg = c.white },
+		Function = { fg = c.orange },
+		Statement = { fg = c.grey2 },
+		Conditional = { fg = c.grey2 },
+		Repeat = { fg = c.grey2 },
+		Label = { fg = c.grey2 },
+		Operator = { fg = c.grey2 },
+		Keyword = { fg = c.grey2 },
+		Exception = { fg = c.grey2 },
+		PreProc = { fg = c.grey2 },
+		Include = { fg = c.variant == "noir" and c.yellow or c.grey2 },
+		Define = { fg = c.grey2 },
+		Macro = { fg = c.orange },
+		PreCondit = { fg = c.grey2 },
+		Type = { fg = c.yellow },
+		StorageClass = { fg = c.grey2 },
+		Structure = { fg = c.yellow },
+		Typedef = { fg = c.yellow },
+		Special = { fg = c.orange },
+		SpecialChar = { fg = c.orange },
+		Tag = { fg = c.grey2 },
+		Delimiter = { fg = c.grey2 },
+		SpecialComment = { fg = c.comment, italic = true },
+		Debug = { fg = c.orange },
+		Underlined = { underline = true },
+		Ignore = { fg = c.grey1 },
+		Error = { fg = c.red },
+		Todo = { fg = c.cyan, bold = true },
+		Added = { fg = c.green },
+		Changed = { fg = c.blue },
+		Removed = { fg = c.red },
+	}
+end
+
+return M
